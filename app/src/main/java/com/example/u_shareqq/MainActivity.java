@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mNoBianBan.setOnClickListener(this);
         mQQLogin.setOnClickListener(this);
     }
-
+    //点击则分享到QQ
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
